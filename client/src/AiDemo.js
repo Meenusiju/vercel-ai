@@ -22,7 +22,7 @@ const styles = {
 
 export default function AiDemo() {
   const { messages, status, sendMessage } = useChat({
-    api: 'http://localhost:3001/api/chat', // full URL to backend
+    api: 'https://vercel-ai-eight.vercel.app/api/chat', // full URL to backend
   });
   const [input, setInput] = useState('');
 
