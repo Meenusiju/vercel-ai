@@ -6,7 +6,7 @@ import { openai } from '@ai-sdk/openai';
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'http://localhost:3000', 'https://vercel.com/meenusijus-projects/vercel-ai-i4jw/Fra3VL24H7DzNdfAEa8FwrfPckAX' }));
 
 app.post('/api/chat', async (req, res) => {
   try {
